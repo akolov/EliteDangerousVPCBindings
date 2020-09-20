@@ -267,7 +267,7 @@
 	</BackwardThrustButton_Landing>
 	<ToggleFlightAssist>
 		<Primary Device="Keyboard" Key="Key_Z" />
-		<Secondary Device="03EB2054" DeviceIndex="1" Key="Joy_10" />
+		<Secondary Device="03EB2054" DeviceIndex="2" Key="Joy_10" />
 		<ToggleOn Value="0" />
 	</ToggleFlightAssist>
 	<UseBoostJuice>
@@ -276,15 +276,15 @@
 	</UseBoostJuice>
 	<HyperSuperCombination>
 		<Primary Device="Keyboard" Key="Key_J" />
-		<Secondary Device="03EB2054" DeviceIndex="1" Key="Joy_19" />
+		<Secondary Device="03EB2054" DeviceIndex="2" Key="Joy_19" />
 	</HyperSuperCombination>
 	<Supercruise>
 		<Primary Device="{NoDevice}" Key="" />
-		<Secondary Device="03EB2054" DeviceIndex="1" Key="Joy_13" />
+		<Secondary Device="03EB2054" DeviceIndex="2" Key="Joy_13" />
 	</Supercruise>
 	<Hyperspace>
 		<Primary Device="{NoDevice}" Key="" />
-		<Secondary Device="03EB2054" DeviceIndex="1" Key="Joy_14" />
+		<Secondary Device="03EB2054" DeviceIndex="2" Key="Joy_14" />
 	</Hyperspace>
 	<DisableRotationCorrectToggle>
 		<Primary Device="Keyboard" Key="Key_Z">
@@ -385,7 +385,7 @@
 	</DeployHeatSink>
 	<ShipSpotLightToggle>
 		<Primary Device="Keyboard" Key="Key_L" />
-		<Secondary Device="03EB2054" DeviceIndex="1" Key="Joy_15" />
+		<Secondary Device="03EB2054" DeviceIndex="2" Key="Joy_15" />
 	</ShipSpotLightToggle>
 	<RadarRangeAxis>
 		<Binding Device="{NoDevice}" Key="" />
@@ -422,7 +422,7 @@
 	</HMDReset>
 	<ToggleCargoScoop>
 		<Primary Device="Keyboard" Key="Key_Home" />
-		<Secondary Device="03EB2054" DeviceIndex="1" Key="Joy_12" />
+		<Secondary Device="03EB2054" DeviceIndex="2" Key="Joy_11" />
 		<ToggleOn Value="1" />
 	</ToggleCargoScoop>
 	<EjectAllCargo>
@@ -431,7 +431,7 @@
 	</EjectAllCargo>
 	<LandingGearToggle>
 		<Primary Device="Keyboard" Key="Key_Insert" />
-		<Secondary Device="03EB2054" DeviceIndex="1" Key="Joy_11" />
+		<Secondary Device="03EB2054" DeviceIndex="2" Key="Joy_12" />
 	</LandingGearToggle>
 	<MicrophoneMute>
 		<Primary Device="Keyboard" Key="Key_RightBracket" />
