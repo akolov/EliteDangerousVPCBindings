@@ -513,7 +513,7 @@
 	</ShowPGScoreSummaryInput>
 	<HeadLookToggle>
 		<Primary Device="Mouse" Key="Mouse_3" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="03EB2046" Key="Joy_5" />
 		<ToggleOn Value="1" />
 	</HeadLookToggle>
 	<Pause>
@@ -582,12 +582,12 @@
 	</CyclePreviousPage>
 	<MouseHeadlook Value="1" />
 	<MouseHeadlookInvert Value="0" />
-	<MouseHeadlookSensitivity Value="0.50000000" />
+	<MouseHeadlookSensitivity Value="1.86303139" />
 	<HeadlookDefault Value="0" />
 	<HeadlookIncrement Value="0.00000000" />
-	<HeadlookMode Value="Bindings_HeadlookModeAccumulate" />
+	<HeadlookMode Value="Bindings_HeadlookModeDirect" />
 	<HeadlookResetOnToggle Value="1" />
-	<HeadlookSensitivity Value="1.00000000" />
+	<HeadlookSensitivity Value="0.25000000" />
 	<HeadlookSmoothing Value="1" />
 	<HeadLookReset>
 		<Primary Device="{NoDevice}" Key="" />
@@ -602,9 +602,9 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</HeadLookPitchDown>
 	<HeadLookPitchAxisRaw>
-		<Binding Device="{NoDevice}" Key="" />
-		<Inverted Value="0" />
-		<Deadzone Value="0.00000000" />
+		<Binding Device="03EB2046" Key="Joy_RYAxis" />
+		<Inverted Value="1" />
+		<Deadzone Value="0.10962500" />
 	</HeadLookPitchAxisRaw>
 	<HeadLookYawLeft>
 		<Primary Device="{NoDevice}" Key="" />
@@ -615,9 +615,9 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</HeadLookYawRight>
 	<HeadLookYawAxis>
-		<Binding Device="{NoDevice}" Key="" />
+		<Binding Device="03EB2046" Key="Joy_RXAxis" />
 		<Inverted Value="0" />
-		<Deadzone Value="0.00000000" />
+		<Deadzone Value="0.10350000" />
 	</HeadLookYawAxis>
 	<MotionHeadlook Value="0" />
 	<HeadlookMotionSensitivity Value="1.00000000" />
