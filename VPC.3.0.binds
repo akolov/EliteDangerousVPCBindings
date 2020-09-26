@@ -138,7 +138,10 @@
 	<ThrottleRange Value="Bindings_ThrottleForewardOnly" />
 	<ToggleReverseThrottleInput>
 		<Primary Device="03EB2054" DeviceIndex="1" Key="Joy_31" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="Keyboard" Key="Key_@">
+			<Modifier Device="Keyboard" Key="Key_LeftControl" />
+			<Modifier Device="Keyboard" Key="Key_LeftAlt" />
+		</Secondary>
 		<ToggleOn Value="0" />
 	</ToggleReverseThrottleInput>
 	<ForwardKey>
@@ -151,19 +154,31 @@
 	</BackwardKey>
 	<ThrottleIncrement Value="0.00000000" />
 	<SetSpeedMinus100>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_1">
+			<Modifier Device="Keyboard" Key="Key_LeftAlt" />
+			<Modifier Device="Keyboard" Key="Key_LeftShift" />
+		</Primary>
 		<Secondary Device="{NoDevice}" Key="" />
 	</SetSpeedMinus100>
 	<SetSpeedMinus75>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_2">
+			<Modifier Device="Keyboard" Key="Key_LeftShift" />
+			<Modifier Device="Keyboard" Key="Key_LeftAlt" />
+		</Primary>
 		<Secondary Device="{NoDevice}" Key="" />
 	</SetSpeedMinus75>
 	<SetSpeedMinus50>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_3">
+			<Modifier Device="Keyboard" Key="Key_LeftShift" />
+			<Modifier Device="Keyboard" Key="Key_LeftAlt" />
+		</Primary>
 		<Secondary Device="{NoDevice}" Key="" />
 	</SetSpeedMinus50>
 	<SetSpeedMinus25>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_4">
+			<Modifier Device="Keyboard" Key="Key_LeftAlt" />
+			<Modifier Device="Keyboard" Key="Key_LeftShift" />
+		</Primary>
 		<Secondary Device="{NoDevice}" Key="" />
 	</SetSpeedMinus25>
 	<SetSpeedZero>
@@ -171,19 +186,31 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</SetSpeedZero>
 	<SetSpeed25>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_4">
+			<Modifier Device="Keyboard" Key="Key_LeftAlt" />
+			<Modifier Device="Keyboard" Key="Key_RightShift" />
+		</Primary>
 		<Secondary Device="{NoDevice}" Key="" />
 	</SetSpeed25>
 	<SetSpeed50>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_3">
+			<Modifier Device="Keyboard" Key="Key_LeftAlt" />
+			<Modifier Device="Keyboard" Key="Key_RightShift" />
+		</Primary>
 		<Secondary Device="{NoDevice}" Key="" />
 	</SetSpeed50>
 	<SetSpeed75>
-		<Primary Device="03EB2054" DeviceIndex="1" Key="Joy_3" />
+		<Primary Device="Keyboard" Key="Key_2">
+			<Modifier Device="Keyboard" Key="Key_LeftAlt" />
+			<Modifier Device="Keyboard" Key="Key_RightShift" />
+		</Primary>
 		<Secondary Device="{NoDevice}" Key="" />
 	</SetSpeed75>
 	<SetSpeed100>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_1">
+			<Modifier Device="Keyboard" Key="Key_LeftAlt" />
+			<Modifier Device="Keyboard" Key="Key_RightShift" />
+		</Primary>
 		<Secondary Device="{NoDevice}" Key="" />
 	</SetSpeed100>
 	<YawAxis_Landing>
@@ -279,7 +306,10 @@
 		<Secondary Device="03EB2054" DeviceIndex="2" Key="Joy_19" />
 	</HyperSuperCombination>
 	<Supercruise>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_S">
+			<Modifier Device="Keyboard" Key="Key_LeftControl" />
+			<Modifier Device="Keyboard" Key="Key_LeftAlt" />
+		</Primary>
 		<Secondary Device="03EB2054" DeviceIndex="2" Key="Joy_13" />
 	</Supercruise>
 	<Hyperspace>
@@ -306,7 +336,9 @@
 		<Secondary Device="03EB2046" Key="Joy_15" />
 	</CycleNextTarget>
 	<CyclePreviousTarget>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_G">
+			<Modifier Device="Keyboard" Key="Key_LeftControl" />
+		</Primary>
 		<Secondary Device="03EB2046" Key="Joy_17" />
 	</CyclePreviousTarget>
 	<SelectHighestThreat>
@@ -314,11 +346,16 @@
 		<Secondary Device="03EB2046" Key="Joy_8" />
 	</SelectHighestThreat>
 	<CycleNextHostileTarget>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_G">
+			<Modifier Device="Keyboard" Key="Key_LeftAlt" />
+		</Primary>
 		<Secondary Device="03EB2046" Key="Joy_9" />
 	</CycleNextHostileTarget>
 	<CyclePreviousHostileTarget>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_G">
+			<Modifier Device="Keyboard" Key="Key_LeftAlt" />
+			<Modifier Device="Keyboard" Key="Key_LeftShift" />
+		</Primary>
 		<Secondary Device="03EB2046" Key="Joy_11" />
 	</CyclePreviousHostileTarget>
 	<TargetWingman0>
@@ -346,11 +383,17 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</CycleNextSubsystem>
 	<CyclePreviousSubsystem>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_Y">
+			<Modifier Device="Keyboard" Key="Key_LeftControl" />
+		</Primary>
 		<Secondary Device="{NoDevice}" Key="" />
 	</CyclePreviousSubsystem>
 	<TargetNextRouteSystem>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_Y">
+			<Modifier Device="Keyboard" Key="Key_LeftShift" />
+			<Modifier Device="Keyboard" Key="Key_LeftAlt" />
+			<Modifier Device="Keyboard" Key="Key_LeftControl" />
+		</Primary>
 		<Secondary Device="{NoDevice}" Key="" />
 	</TargetNextRouteSystem>
 	<PrimaryFire>
@@ -358,7 +401,9 @@
 		<Secondary Device="03EB2046" Key="Joy_3" />
 	</PrimaryFire>
 	<SecondaryFire>
-		<Primary Device="Mouse" Key="Mouse_2" />
+		<Primary Device="Keyboard" Key="Key_Space">
+			<Modifier Device="Keyboard" Key="Key_LeftControl" />
+		</Primary>
 		<Secondary Device="03EB2046" Key="Joy_2" />
 	</SecondaryFire>
 	<CycleFireGroupNext>
@@ -366,7 +411,9 @@
 		<Secondary Device="03EB2046" Key="Joy_6" />
 	</CycleFireGroupNext>
 	<CycleFireGroupPrevious>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_N">
+			<Modifier Device="Keyboard" Key="Key_LeftControl" />
+		</Primary>
 		<Secondary Device="{NoDevice}" Key="" />
 	</CycleFireGroupPrevious>
 	<DeployHardpointToggle>
@@ -441,31 +488,53 @@
 	<MuteButtonMode Value="mute_toggle" />
 	<CqcMuteButtonMode Value="mute_pushToTalk" />
 	<UseShieldCell>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_S">
+			<Modifier Device="Keyboard" Key="Key_LeftControl" />
+			<Modifier Device="Keyboard" Key="Key_LeftAlt" />
+			<Modifier Device="Keyboard" Key="Key_LeftShift" />
+		</Primary>
 		<Secondary Device="{NoDevice}" Key="" />
 	</UseShieldCell>
 	<FireChaffLauncher>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_C">
+			<Modifier Device="Keyboard" Key="Key_LeftControl" />
+			<Modifier Device="Keyboard" Key="Key_LeftAlt" />
+			<Modifier Device="Keyboard" Key="Key_LeftShift" />
+		</Primary>
 		<Secondary Device="{NoDevice}" Key="" />
 	</FireChaffLauncher>
 	<ChargeECM>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_E">
+			<Modifier Device="Keyboard" Key="Key_LeftControl" />
+			<Modifier Device="Keyboard" Key="Key_LeftAlt" />
+			<Modifier Device="Keyboard" Key="Key_LeftShift" />
+		</Primary>
 		<Secondary Device="{NoDevice}" Key="" />
 	</ChargeECM>
 	<EnableRumbleTrigger Value="1" />
 	<EnableMenuGroups Value="0" />
 	<MouseGUI Value="0" />
 	<WeaponColourToggle>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_C">
+			<Modifier Device="Keyboard" Key="Key_LeftControl" />
+			<Modifier Device="Keyboard" Key="Key_LeftShift" />
+		</Primary>
 		<Secondary Device="{NoDevice}" Key="" />
 	</WeaponColourToggle>
 	<EngineColourToggle>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_C">
+			<Modifier Device="Keyboard" Key="Key_LeftAlt" />
+			<Modifier Device="Keyboard" Key="Key_LeftShift" />
+		</Primary>
 		<Secondary Device="{NoDevice}" Key="" />
 	</EngineColourToggle>
 	<NightVisionToggle>
-		<Primary Device="{NoDevice}" Key="" />
-		<Secondary Device="03EB2054" DeviceIndex="1" Key="Joy_16" />
+		<Primary Device="Keyboard" Key="Key_N">
+			<Modifier Device="Keyboard" Key="Key_LeftControl" />
+			<Modifier Device="Keyboard" Key="Key_LeftAlt" />
+			<Modifier Device="Keyboard" Key="Key_LeftShift" />
+		</Primary>
+		<Secondary Device="03EB2054" DeviceIndex="2" Key="Joy_16" />
 	</NightVisionToggle>
 	<UIFocus>
 		<Primary Device="Keyboard" Key="Key_LeftShift" />
@@ -499,11 +568,15 @@
 	<RightPanelFocusOptions Value="" />
 	<EnableCameraLockOn Value="1" />
 	<GalaxyMapOpen>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_M">
+			<Modifier Device="Keyboard" Key="Key_LeftAlt" />
+		</Primary>
 		<Secondary Device="03EB2054" DeviceIndex="2" Key="Joy_5" />
 	</GalaxyMapOpen>
 	<SystemMapOpen>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_M">
+			<Modifier Device="Keyboard" Key="Key_LeftControl" />
+		</Primary>
 		<Secondary Device="03EB2054" DeviceIndex="2" Key="Joy_6" />
 	</SystemMapOpen>
 	<ShowPGScoreSummaryInput>
@@ -641,11 +714,15 @@
 		<Deadzone Value="0.00000000" />
 	</CamYawAxis>
 	<CamYawLeft>
-		<Primary Device="Keyboard" Key="Key_Q" />
+		<Primary Device="Keyboard" Key="Key_Q">
+			<Modifier Device="Keyboard" Key="Key_LeftControl" />
+		</Primary>
 		<Secondary Device="{NoDevice}" Key="" />
 	</CamYawLeft>
 	<CamYawRight>
-		<Primary Device="Keyboard" Key="Key_E" />
+		<Primary Device="Keyboard" Key="Key_E">
+			<Modifier Device="Keyboard" Key="Key_LeftControl" />
+		</Primary>
 		<Secondary Device="{NoDevice}" Key="" />
 	</CamYawRight>
 	<CamTranslateYAxis>
@@ -654,11 +731,15 @@
 		<Deadzone Value="0.00000000" />
 	</CamTranslateYAxis>
 	<CamTranslateForward>
-		<Primary Device="Keyboard" Key="Key_W" />
+		<Primary Device="Keyboard" Key="Key_W">
+			<Modifier Device="Keyboard" Key="Key_LeftControl" />
+		</Primary>
 		<Secondary Device="{NoDevice}" Key="" />
 	</CamTranslateForward>
 	<CamTranslateBackward>
-		<Primary Device="Keyboard" Key="Key_S" />
+		<Primary Device="Keyboard" Key="Key_S">
+			<Modifier Device="Keyboard" Key="Key_LeftControl" />
+		</Primary>
 		<Secondary Device="{NoDevice}" Key="" />
 	</CamTranslateBackward>
 	<CamTranslateXAxis>
@@ -667,11 +748,15 @@
 		<Deadzone Value="0.00000000" />
 	</CamTranslateXAxis>
 	<CamTranslateLeft>
-		<Primary Device="Keyboard" Key="Key_A" />
+		<Primary Device="Keyboard" Key="Key_A">
+			<Modifier Device="Keyboard" Key="Key_LeftControl" />
+		</Primary>
 		<Secondary Device="{NoDevice}" Key="" />
 	</CamTranslateLeft>
 	<CamTranslateRight>
-		<Primary Device="Keyboard" Key="Key_D" />
+		<Primary Device="Keyboard" Key="Key_D">
+			<Modifier Device="Keyboard" Key="Key_LeftControl" />
+		</Primary>
 		<Secondary Device="{NoDevice}" Key="" />
 	</CamTranslateRight>
 	<CamTranslateZAxis>
@@ -710,7 +795,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</GalaxyMapHome>
 	<ToggleDriveAssist>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_Z" />
 		<Secondary Device="{NoDevice}" Key="" />
 		<ToggleOn Value="1" />
 	</ToggleDriveAssist>
@@ -774,29 +859,33 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</BuggySecondaryFireButton>
 	<AutoBreakBuggyButton>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_B" />
 		<Secondary Device="{NoDevice}" Key="" />
 		<ToggleOn Value="0" />
 	</AutoBreakBuggyButton>
 	<HeadlightsBuggyButton>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_L" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</HeadlightsBuggyButton>
 	<ToggleBuggyTurretButton>
-		<Primary Device="03EB2065" Key="Joy_8" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_T" />
+		<Secondary Device="03EB2046" Key="Joy_30" />
 	</ToggleBuggyTurretButton>
 	<BuggyCycleFireGroupNext>
 		<Primary Device="Keyboard" Key="Key_N" />
 		<Secondary Device="03EB2065" Key="Joy_5" />
 	</BuggyCycleFireGroupNext>
 	<BuggyCycleFireGroupPrevious>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_N">
+			<Modifier Device="Keyboard" Key="Key_LeftControl" />
+		</Primary>
 		<Secondary Device="{NoDevice}" Key="" />
 	</BuggyCycleFireGroupPrevious>
 	<SelectTarget_Buggy>
-		<Primary Device="03EB2065" Key="Joy_3" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Primary Device="03EB2046" Key="Joy_14" />
+		<Secondary Device="Keyboard" Key="Key_T">
+			<Modifier Device="Keyboard" Key="Key_LeftControl" />
+		</Secondary>
 	</SelectTarget_Buggy>
 	<MouseTurretXMode Value="" />
 	<MouseTurretXDecay Value="1" />
@@ -839,7 +928,9 @@
 	<BuggyThrottleRange Value="" />
 	<BuggyToggleReverseThrottleInput>
 		<Primary Device="{NoDevice}" Key="" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="Keyboard" Key="Key_R">
+			<Modifier Device="Keyboard" Key="Key_LeftControl" />
+		</Secondary>
 		<ToggleOn Value="1" />
 	</BuggyToggleReverseThrottleInput>
 	<BuggyThrottleIncrement Value="0.00000000" />
@@ -887,7 +978,9 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</EjectAllCargo_Buggy>
 	<RecallDismissShip>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_C">
+			<Modifier Device="Keyboard" Key="Key_LeftControl" />
+		</Primary>
 		<Secondary Device="{NoDevice}" Key="" />
 	</RecallDismissShip>
 	<UIFocus_Buggy>
@@ -915,11 +1008,15 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</FocusRightPanel_Buggy>
 	<GalaxyMapOpen_Buggy>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_M">
+			<Modifier Device="Keyboard" Key="Key_LeftControl" />
+		</Primary>
 		<Secondary Device="{NoDevice}" Key="" />
 	</GalaxyMapOpen_Buggy>
 	<SystemMapOpen_Buggy>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_M">
+			<Modifier Device="Keyboard" Key="Key_LeftAlt" />
+		</Primary>
 		<Secondary Device="{NoDevice}" Key="" />
 	</SystemMapOpen_Buggy>
 	<OpenCodexGoToDiscovery_Buggy>
@@ -1008,35 +1105,59 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</MultiCrewCockpitUICycleBackward>
 	<OrderRequestDock>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_F">
+			<Modifier Device="Keyboard" Key="Key_LeftAlt" />
+			<Modifier Device="Keyboard" Key="Key_LeftShift" />
+		</Primary>
 		<Secondary Device="{NoDevice}" Key="" />
 	</OrderRequestDock>
 	<OrderDefensiveBehaviour>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_D">
+			<Modifier Device="Keyboard" Key="Key_LeftShift" />
+			<Modifier Device="Keyboard" Key="Key_LeftAlt" />
+		</Primary>
 		<Secondary Device="{NoDevice}" Key="" />
 	</OrderDefensiveBehaviour>
 	<OrderAggressiveBehaviour>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_A">
+			<Modifier Device="Keyboard" Key="Key_LeftShift" />
+			<Modifier Device="Keyboard" Key="Key_LeftAlt" />
+		</Primary>
 		<Secondary Device="{NoDevice}" Key="" />
 	</OrderAggressiveBehaviour>
 	<OrderFocusTarget>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_T">
+			<Modifier Device="Keyboard" Key="Key_LeftShift" />
+			<Modifier Device="Keyboard" Key="Key_LeftAlt" />
+		</Primary>
 		<Secondary Device="{NoDevice}" Key="" />
 	</OrderFocusTarget>
 	<OrderHoldFire>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_M">
+			<Modifier Device="Keyboard" Key="Key_LeftShift" />
+			<Modifier Device="Keyboard" Key="Key_LeftAlt" />
+		</Primary>
 		<Secondary Device="{NoDevice}" Key="" />
 	</OrderHoldFire>
 	<OrderHoldPosition>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_H">
+			<Modifier Device="Keyboard" Key="Key_LeftShift" />
+			<Modifier Device="Keyboard" Key="Key_LeftAlt" />
+		</Primary>
 		<Secondary Device="{NoDevice}" Key="" />
 	</OrderHoldPosition>
 	<OrderFollow>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_L">
+			<Modifier Device="Keyboard" Key="Key_LeftShift" />
+			<Modifier Device="Keyboard" Key="Key_LeftAlt" />
+		</Primary>
 		<Secondary Device="{NoDevice}" Key="" />
 	</OrderFollow>
 	<OpenOrders>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_O">
+			<Modifier Device="Keyboard" Key="Key_LeftAlt" />
+			<Modifier Device="Keyboard" Key="Key_LeftShift" />
+		</Primary>
 		<Secondary Device="{NoDevice}" Key="" />
 	</OpenOrders>
 	<PhotoCameraToggle>
@@ -1102,7 +1223,10 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</VanityCameraNine>
 	<FreeCamToggleHUD>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_H">
+			<Modifier Device="Keyboard" Key="Key_LeftAlt" />
+			<Modifier Device="Keyboard" Key="Key_LeftShift" />
+		</Primary>
 		<Secondary Device="{NoDevice}" Key="" />
 	</FreeCamToggleHUD>
 	<FreeCamSpeedInc>
@@ -1217,11 +1341,17 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</ToggleRotationLock>
 	<FixCameraRelativeToggle>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_C">
+			<Modifier Device="Keyboard" Key="Key_LeftShift" />
+			<Modifier Device="Keyboard" Key="Key_LeftAlt" />
+		</Primary>
 		<Secondary Device="{NoDevice}" Key="" />
 	</FixCameraRelativeToggle>
 	<FixCameraWorldToggle>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_D">
+			<Modifier Device="Keyboard" Key="Key_LeftShift" />
+			<Modifier Device="Keyboard" Key="Key_LeftAlt" />
+		</Primary>
 		<Secondary Device="{NoDevice}" Key="" />
 	</FixCameraWorldToggle>
 	<QuitCamera>
@@ -1292,19 +1422,30 @@
 		<Deadzone Value="0.00000000" />
 	</CommanderCreator_Rotation>
 	<GalnetAudio_Play_Pause>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_P">
+			<Modifier Device="Keyboard" Key="Key_LeftControl" />
+			<Modifier Device="Keyboard" Key="Key_LeftShift" />
+		</Primary>
 		<Secondary Device="{NoDevice}" Key="" />
 	</GalnetAudio_Play_Pause>
 	<GalnetAudio_SkipForward>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_Period">
+			<Modifier Device="Keyboard" Key="Key_LeftControl" />
+		</Primary>
 		<Secondary Device="{NoDevice}" Key="" />
 	</GalnetAudio_SkipForward>
 	<GalnetAudio_SkipBackward>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_Comma">
+			<Modifier Device="Keyboard" Key="Key_LeftControl" />
+		</Primary>
 		<Secondary Device="{NoDevice}" Key="" />
 	</GalnetAudio_SkipBackward>
 	<GalnetAudio_ClearQueue>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_Q">
+			<Modifier Device="Keyboard" Key="Key_LeftControl" />
+			<Modifier Device="Keyboard" Key="Key_LeftAlt" />
+			<Modifier Device="Keyboard" Key="Key_LeftShift" />
+		</Primary>
 		<Secondary Device="{NoDevice}" Key="" />
 	</GalnetAudio_ClearQueue>
 	<ExplorationFSSCameraPitch>
@@ -1334,19 +1475,19 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</ExplorationFSSCameraYawDecreaseButton>
 	<ExplorationFSSZoomIn>
-		<Primary Device="03EB2054" DeviceIndex="1" Key="Joy_22" />
+		<Primary Device="03EB2054" DeviceIndex="2" Key="Joy_22" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</ExplorationFSSZoomIn>
 	<ExplorationFSSZoomOut>
-		<Primary Device="03EB2054" DeviceIndex="1" Key="Joy_21" />
+		<Primary Device="03EB2054" DeviceIndex="2" Key="Joy_21" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</ExplorationFSSZoomOut>
 	<ExplorationFSSMiniZoomIn>
-		<Primary Device="03EB2054" DeviceIndex="1" Key="Joy_25" />
+		<Primary Device="03EB2054" DeviceIndex="2" Key="Joy_25" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</ExplorationFSSMiniZoomIn>
 	<ExplorationFSSMiniZoomOut>
-		<Primary Device="03EB2054" DeviceIndex="1" Key="Joy_24" />
+		<Primary Device="03EB2054" DeviceIndex="2" Key="Joy_24" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</ExplorationFSSMiniZoomOut>
 	<ExplorationFSSRadioTuningX_Raw>
@@ -1369,11 +1510,11 @@
 	</ExplorationFSSRadioTuningAbsoluteX>
 	<FSSTuningSensitivity Value="5.59474707" />
 	<ExplorationFSSDiscoveryScan>
-		<Primary Device="03EB2054" DeviceIndex="1" Key="Joy_19" />
+		<Primary Device="03EB2054" DeviceIndex="2" Key="Joy_19" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</ExplorationFSSDiscoveryScan>
 	<ExplorationFSSQuit>
-		<Primary Device="03EB2054" DeviceIndex="1" Key="Joy_7" />
+		<Primary Device="03EB2054" DeviceIndex="2" Key="Joy_7" />
 		<Secondary Device="Keyboard" Key="Key_Colon" />
 	</ExplorationFSSQuit>
 	<FSSMouseXMode Value="" />
@@ -1384,11 +1525,11 @@
 	<FSSMouseDeadzone Value="0.00000000" />
 	<FSSMouseLinearity Value="1.00000000" />
 	<ExplorationFSSTarget>
-		<Primary Device="03EB2054" DeviceIndex="1" Key="Joy_8" />
+		<Primary Device="03EB2054" DeviceIndex="2" Key="Joy_8" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</ExplorationFSSTarget>
 	<ExplorationFSSShowHelp>
-		<Primary Device="03EB2054" DeviceIndex="1" Key="Joy_6" />
+		<Primary Device="03EB2054" DeviceIndex="2" Key="Joy_6" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</ExplorationFSSShowHelp>
 	<ExplorationSAAChangeScannedAreaViewToggle>
@@ -1397,7 +1538,11 @@
 		<ToggleOn Value="1" />
 	</ExplorationSAAChangeScannedAreaViewToggle>
 	<ExplorationSAAExitThirdPerson>
-		<Primary Device="03EB2065" Key="Joy_4" />
+		<Primary Device="Keyboard" Key="Key_Q">
+			<Modifier Device="Keyboard" Key="Key_LeftControl" />
+			<Modifier Device="Keyboard" Key="Key_LeftAlt" />
+			<Modifier Device="Keyboard" Key="Key_LeftShift" />
+		</Primary>
 		<Secondary Device="{NoDevice}" Key="" />
 	</ExplorationSAAExitThirdPerson>
 	<SAAThirdPersonMouseXMode Value="" />
