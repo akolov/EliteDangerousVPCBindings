@@ -131,7 +131,7 @@
 		<Deadzone Value="0.00000000" />
 	</VerticalThrustAlternate>
 	<ThrottleAxis>
-		<Binding Device="03EB2054" DeviceIndex="1" Key="Joy_RXAxis" />
+		<Binding Device="03EB2054" DeviceIndex="0" Key="Joy_RXAxis" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</ThrottleAxis>
