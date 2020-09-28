@@ -138,7 +138,7 @@
 	<ThrottleRange Value="Bindings_ThrottleForewardOnly" />
 	<ToggleReverseThrottleInput>
 		<Primary Device="03EB2054" DeviceIndex="1" Key="Joy_31" />
-		<Secondary Device="Keyboard" Key="Key_@">
+		<Secondary Device="Keyboard" Key="Key_R">
 			<Modifier Device="Keyboard" Key="Key_LeftControl" />
 			<Modifier Device="Keyboard" Key="Key_LeftAlt" />
 		</Secondary>
