@@ -62,7 +62,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</PitchDownButton>
 	<LateralThrustRaw>
-		<Binding Device="03EB2054" DeviceIndex="1" Key="Joy_XAxis" />
+		<Binding DDevice="03EB2054" DeviceIndex="0" Key="Joy_XAxis" />
 		<Inverted Value="1" />
 		<Deadzone Value="0.00000000" />
 	</LateralThrustRaw>
@@ -75,7 +75,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</RightThrustButton>
 	<VerticalThrustRaw>
-		<Binding Device="03EB2054" DeviceIndex="1" Key="Joy_YAxis" />
+		<Binding DDevice="03EB2054" DeviceIndex="0" Key="Joy_YAxis" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</VerticalThrustRaw>
@@ -88,7 +88,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</DownThrustButton>
 	<AheadThrust>
-		<Binding Device="03EB2054" DeviceIndex="1" Key="Joy_ZAxis" />
+		<Binding DDevice="03EB2054" DeviceIndex="0" Key="Joy_ZAxis" />
 		<Inverted Value="1" />
 		<Deadzone Value="0.00000000" />
 	</AheadThrust>
@@ -131,13 +131,13 @@
 		<Deadzone Value="0.00000000" />
 	</VerticalThrustAlternate>
 	<ThrottleAxis>
-		<Binding Device="03EB2054" DeviceIndex="1" Key="Joy_RXAxis" />
+		<Binding DDevice="03EB2054" DeviceIndex="1" Key="Joy_RXAxis" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</ThrottleAxis>
 	<ThrottleRange Value="Bindings_ThrottleForewardOnly" />
 	<ToggleReverseThrottleInput>
-		<Primary Device="03EB2054" DeviceIndex="1" Key="Joy_31" />
+		<Primary DDevice="03EB2054" DeviceIndex="0" Key="Joy_31" />
 		<Secondary Device="Keyboard" Key="Key_R">
 			<Modifier Device="Keyboard" Key="Key_LeftControl" />
 			<Modifier Device="Keyboard" Key="Key_LeftAlt" />
@@ -294,27 +294,27 @@
 	</BackwardThrustButton_Landing>
 	<ToggleFlightAssist>
 		<Primary Device="Keyboard" Key="Key_Z" />
-		<Secondary Device="03EB2054" DeviceIndex="0" Key="Joy_10" />
+		<Secondary DDevice="03EB2054" DeviceIndex="1" Key="Joy_10" />
 		<ToggleOn Value="0" />
 	</ToggleFlightAssist>
 	<UseBoostJuice>
 		<Primary Device="Keyboard" Key="Key_Tab" />
-		<Secondary Device="03EB2054" DeviceIndex="1" Key="Joy_20" />
+		<Secondary DDevice="03EB2054" DeviceIndex="0" Key="Joy_20" />
 	</UseBoostJuice>
 	<HyperSuperCombination>
 		<Primary Device="Keyboard" Key="Key_J" />
-		<Secondary Device="03EB2054" DeviceIndex="0" Key="Joy_19" />
+		<Secondary DDevice="03EB2054" DeviceIndex="1" Key="Joy_19" />
 	</HyperSuperCombination>
 	<Supercruise>
 		<Primary Device="Keyboard" Key="Key_S">
 			<Modifier Device="Keyboard" Key="Key_LeftControl" />
 			<Modifier Device="Keyboard" Key="Key_LeftAlt" />
 		</Primary>
-		<Secondary Device="03EB2054" DeviceIndex="0" Key="Joy_13" />
+		<Secondary DDevice="03EB2054" DeviceIndex="1" Key="Joy_13" />
 	</Supercruise>
 	<Hyperspace>
 		<Primary Device="{NoDevice}" Key="" />
-		<Secondary Device="03EB2054" DeviceIndex="0" Key="Joy_14" />
+		<Secondary DDevice="03EB2054" DeviceIndex="1" Key="Joy_14" />
 	</Hyperspace>
 	<DisableRotationCorrectToggle>
 		<Primary Device="Keyboard" Key="Key_Z">
@@ -432,7 +432,7 @@
 	</DeployHeatSink>
 	<ShipSpotLightToggle>
 		<Primary Device="Keyboard" Key="Key_L" />
-		<Secondary Device="03EB2054" DeviceIndex="0" Key="Joy_15" />
+		<Secondary DDevice="03EB2054" DeviceIndex="1" Key="Joy_15" />
 	</ShipSpotLightToggle>
 	<RadarRangeAxis>
 		<Binding Device="{NoDevice}" Key="" />
@@ -469,7 +469,7 @@
 	</HMDReset>
 	<ToggleCargoScoop>
 		<Primary Device="Keyboard" Key="Key_Home" />
-		<Secondary Device="03EB2054" DeviceIndex="0" Key="Joy_11" />
+		<Secondary DDevice="03EB2054" DeviceIndex="1" Key="Joy_11" />
 		<ToggleOn Value="1" />
 	</ToggleCargoScoop>
 	<EjectAllCargo>
@@ -478,7 +478,7 @@
 	</EjectAllCargo>
 	<LandingGearToggle>
 		<Primary Device="Keyboard" Key="Key_Insert" />
-		<Secondary Device="03EB2054" DeviceIndex="0" Key="Joy_12" />
+		<Secondary DDevice="03EB2054" DeviceIndex="1" Key="Joy_12" />
 	</LandingGearToggle>
 	<MicrophoneMute>
 		<Primary Device="Keyboard" Key="Key_RightBracket" />
@@ -534,7 +534,7 @@
 			<Modifier Device="Keyboard" Key="Key_LeftAlt" />
 			<Modifier Device="Keyboard" Key="Key_LeftShift" />
 		</Primary>
-		<Secondary Device="03EB2054" DeviceIndex="0" Key="Joy_16" />
+		<Secondary DDevice="03EB2054" DeviceIndex="1" Key="Joy_16" />
 	</NightVisionToggle>
 	<UIFocus>
 		<Primary Device="Keyboard" Key="Key_LeftShift" />
@@ -543,11 +543,11 @@
 	<UIFocusMode Value="Bindings_FocusModeHold" />
 	<FocusLeftPanel>
 		<Primary Device="Keyboard" Key="Key_1" />
-		<Secondary Device="03EB2054" DeviceIndex="0" Key="Joy_1" />
+		<Secondary DDevice="03EB2054" DeviceIndex="1" Key="Joy_1" />
 	</FocusLeftPanel>
 	<FocusCommsPanel>
 		<Primary Device="Keyboard" Key="Key_2" />
-		<Secondary Device="03EB2054" DeviceIndex="0" Key="Joy_2" />
+		<Secondary DDevice="03EB2054" DeviceIndex="1" Key="Joy_2" />
 	</FocusCommsPanel>
 	<FocusOnTextEntryField Value="0" />
 	<QuickCommsPanel>
@@ -556,11 +556,11 @@
 	</QuickCommsPanel>
 	<FocusRadarPanel>
 		<Primary Device="Keyboard" Key="Key_3" />
-		<Secondary Device="03EB2054" DeviceIndex="0" Key="Joy_3" />
+		<Secondary DDevice="03EB2054" DeviceIndex="1" Key="Joy_3" />
 	</FocusRadarPanel>
 	<FocusRightPanel>
 		<Primary Device="Keyboard" Key="Key_4" />
-		<Secondary Device="03EB2054" DeviceIndex="0" Key="Joy_4" />
+		<Secondary DDevice="03EB2054" DeviceIndex="1" Key="Joy_4" />
 	</FocusRightPanel>
 	<LeftPanelFocusOptions Value="" />
 	<CommsPanelFocusOptions Value="" />
@@ -571,13 +571,13 @@
 		<Primary Device="Keyboard" Key="Key_M">
 			<Modifier Device="Keyboard" Key="Key_LeftAlt" />
 		</Primary>
-		<Secondary Device="03EB2054" DeviceIndex="0" Key="Joy_5" />
+		<Secondary DDevice="03EB2054" DeviceIndex="1" Key="Joy_5" />
 	</GalaxyMapOpen>
 	<SystemMapOpen>
 		<Primary Device="Keyboard" Key="Key_M">
 			<Modifier Device="Keyboard" Key="Key_LeftControl" />
 		</Primary>
-		<Secondary Device="03EB2054" DeviceIndex="0" Key="Joy_6" />
+		<Secondary DDevice="03EB2054" DeviceIndex="1" Key="Joy_6" />
 	</SystemMapOpen>
 	<ShowPGScoreSummaryInput>
 		<Primary Device="Keyboard" Key="Key_F1" />
@@ -603,11 +603,11 @@
 	</OpenCodexGoToDiscovery>
 	<PlayerHUDModeToggle>
 		<Primary Device="Keyboard" Key="Key_M" />
-		<Secondary Device="03EB2054" DeviceIndex="0" Key="Joy_8" />
+		<Secondary DDevice="03EB2054" DeviceIndex="1" Key="Joy_8" />
 	</PlayerHUDModeToggle>
 	<ExplorationFSSEnter>
 		<Primary Device="Keyboard" Key="Key_Colon" />
-		<Secondary Device="03EB2054" DeviceIndex="0" Key="Joy_7" />
+		<Secondary DDevice="03EB2054" DeviceIndex="1" Key="Joy_7" />
 	</ExplorationFSSEnter>
 	<UI_Up>
 		<Primary Device="Keyboard" Key="Key_W" />
@@ -1244,7 +1244,7 @@
 	</MoveFreeCamY>
 	<ThrottleRangeFreeCam Value="" />
 	<ToggleReverseThrottleInputFreeCam>
-		<Primary Device="03EB2054" DeviceIndex="1" Key="Joy_3" />
+		<Primary DDevice="03EB2054" DeviceIndex="0" Key="Joy_3" />
 		<Secondary Device="{NoDevice}" Key="" />
 		<ToggleOn Value="0" />
 	</ToggleReverseThrottleInputFreeCam>
@@ -1449,7 +1449,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</GalnetAudio_ClearQueue>
 	<ExplorationFSSCameraPitch>
-		<Binding Device="03EB2054" DeviceIndex="1" Key="Joy_UAxis" />
+		<Binding DDevice="03EB2054" DeviceIndex="0" Key="Joy_UAxis" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</ExplorationFSSCameraPitch>
@@ -1462,7 +1462,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</ExplorationFSSCameraPitchDecreaseButton>
 	<ExplorationFSSCameraYaw>
-		<Binding Device="03EB2054" DeviceIndex="1" Key="Joy_VAxis" />
+		<Binding DDevice="03EB2054" DeviceIndex="0" Key="Joy_VAxis" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</ExplorationFSSCameraYaw>
@@ -1475,19 +1475,19 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</ExplorationFSSCameraYawDecreaseButton>
 	<ExplorationFSSZoomIn>
-		<Primary Device="03EB2054" DeviceIndex="0" Key="Joy_22" />
+		<Primary DDevice="03EB2054" DeviceIndex="1" Key="Joy_22" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</ExplorationFSSZoomIn>
 	<ExplorationFSSZoomOut>
-		<Primary Device="03EB2054" DeviceIndex="0" Key="Joy_21" />
+		<Primary DDevice="03EB2054" DeviceIndex="1" Key="Joy_21" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</ExplorationFSSZoomOut>
 	<ExplorationFSSMiniZoomIn>
-		<Primary Device="03EB2054" DeviceIndex="0" Key="Joy_25" />
+		<Primary DDevice="03EB2054" DeviceIndex="1" Key="Joy_25" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</ExplorationFSSMiniZoomIn>
 	<ExplorationFSSMiniZoomOut>
-		<Primary Device="03EB2054" DeviceIndex="0" Key="Joy_24" />
+		<Primary DDevice="03EB2054" DeviceIndex="1" Key="Joy_24" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</ExplorationFSSMiniZoomOut>
 	<ExplorationFSSRadioTuningX_Raw>
@@ -1504,17 +1504,17 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</ExplorationFSSRadioTuningX_Decrease>
 	<ExplorationFSSRadioTuningAbsoluteX>
-		<Binding Device="03EB2054" DeviceIndex="1" Key="Joy_RZAxis" />
+		<Binding DDevice="03EB2054" DeviceIndex="0" Key="Joy_RZAxis" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</ExplorationFSSRadioTuningAbsoluteX>
 	<FSSTuningSensitivity Value="5.59474707" />
 	<ExplorationFSSDiscoveryScan>
-		<Primary Device="03EB2054" DeviceIndex="0" Key="Joy_19" />
+		<Primary DDevice="03EB2054" DeviceIndex="1" Key="Joy_19" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</ExplorationFSSDiscoveryScan>
 	<ExplorationFSSQuit>
-		<Primary Device="03EB2054" DeviceIndex="0" Key="Joy_7" />
+		<Primary DDevice="03EB2054" DeviceIndex="1" Key="Joy_7" />
 		<Secondary Device="Keyboard" Key="Key_Colon" />
 	</ExplorationFSSQuit>
 	<FSSMouseXMode Value="" />
@@ -1525,11 +1525,11 @@
 	<FSSMouseDeadzone Value="0.00000000" />
 	<FSSMouseLinearity Value="1.00000000" />
 	<ExplorationFSSTarget>
-		<Primary Device="03EB2054" DeviceIndex="0" Key="Joy_8" />
+		<Primary DDevice="03EB2054" DeviceIndex="1" Key="Joy_8" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</ExplorationFSSTarget>
 	<ExplorationFSSShowHelp>
-		<Primary Device="03EB2054" DeviceIndex="0" Key="Joy_6" />
+		<Primary DDevice="03EB2054" DeviceIndex="1" Key="Joy_6" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</ExplorationFSSShowHelp>
 	<ExplorationSAAChangeScannedAreaViewToggle>
