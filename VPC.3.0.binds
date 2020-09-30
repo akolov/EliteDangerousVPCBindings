@@ -62,7 +62,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</PitchDownButton>
 	<LateralThrustRaw>
-		<Binding Device="03EB2054" DeviceIndex="0" Key="Joy_XAxis" />
+		<Binding Device="03EB2054" DeviceIndex="2" Key="Joy_XAxis" />
 		<Inverted Value="1" />
 		<Deadzone Value="0.00000000" />
 	</LateralThrustRaw>
@@ -75,7 +75,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</RightThrustButton>
 	<VerticalThrustRaw>
-		<Binding Device="03EB2054" DeviceIndex="0" Key="Joy_YAxis" />
+		<Binding Device="03EB2054" DeviceIndex="2" Key="Joy_YAxis" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</VerticalThrustRaw>
@@ -88,8 +88,8 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</DownThrustButton>
 	<AheadThrust>
-		<Binding Device="03EB2054" DeviceIndex="0" Key="Joy_ZAxis" />
-		<Inverted Value="1" />
+		<Binding Device="03EB2054" DeviceIndex="2" Key="Joy_ZAxis" />
+		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</AheadThrust>
 	<ForwardThrustButton>
@@ -131,13 +131,13 @@
 		<Deadzone Value="0.00000000" />
 	</VerticalThrustAlternate>
 	<ThrottleAxis>
-		<Binding Device="03EB2054" DeviceIndex="0" Key="Joy_RXAxis" />
+		<Binding Device="03EB2054" DeviceIndex="2" Key="Joy_RXAxis" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</ThrottleAxis>
 	<ThrottleRange Value="Bindings_ThrottleForewardOnly" />
 	<ToggleReverseThrottleInput>
-		<Primary Device="03EB2054" DeviceIndex="0" Key="Joy_31" />
+		<Primary Device="03EB2054" DeviceIndex="2" Key="Joy_31" />
 		<Secondary Device="Keyboard" Key="Key_R">
 			<Modifier Device="Keyboard" Key="Key_LeftControl" />
 			<Modifier Device="Keyboard" Key="Key_LeftAlt" />
@@ -299,22 +299,22 @@
 	</ToggleFlightAssist>
 	<UseBoostJuice>
 		<Primary Device="Keyboard" Key="Key_Tab" />
-		<Secondary Device="03EB2054" DeviceIndex="0" Key="Joy_20" />
+		<Secondary Device="03EB2054" DeviceIndex="2" Key="Joy_20" />
 	</UseBoostJuice>
 	<HyperSuperCombination>
 		<Primary Device="Keyboard" Key="Key_J" />
-		<Secondary Device="03EB2054" DeviceIndex="1" Key="Joy_19" />
+		<Secondary Device="03EB2054" DeviceIndex="0" Key="Joy_19" />
 	</HyperSuperCombination>
 	<Supercruise>
 		<Primary Device="Keyboard" Key="Key_S">
 			<Modifier Device="Keyboard" Key="Key_LeftControl" />
 			<Modifier Device="Keyboard" Key="Key_LeftAlt" />
 		</Primary>
-		<Secondary Device="03EB2054" DeviceIndex="1" Key="Joy_13" />
+		<Secondary Device="03EB2054" DeviceIndex="0" Key="Joy_7" />
 	</Supercruise>
 	<Hyperspace>
 		<Primary Device="{NoDevice}" Key="" />
-		<Secondary Device="03EB2054" DeviceIndex="1" Key="Joy_14" />
+		<Secondary Device="03EB2054" DeviceIndex="0" Key="Joy_8" />
 	</Hyperspace>
 	<DisableRotationCorrectToggle>
 		<Primary Device="Keyboard" Key="Key_Z">
@@ -543,11 +543,11 @@
 	<UIFocusMode Value="Bindings_FocusModeHold" />
 	<FocusLeftPanel>
 		<Primary Device="Keyboard" Key="Key_1" />
-		<Secondary Device="03EB2054" DeviceIndex="1" Key="Joy_1" />
+		<Secondary Device="33448258" Key="Joy_1" />
 	</FocusLeftPanel>
 	<FocusCommsPanel>
 		<Primary Device="Keyboard" Key="Key_2" />
-		<Secondary Device="03EB2054" DeviceIndex="1" Key="Joy_2" />
+		<Secondary Device="33448258" Key="Joy_2" />
 	</FocusCommsPanel>
 	<FocusOnTextEntryField Value="0" />
 	<QuickCommsPanel>
@@ -556,11 +556,11 @@
 	</QuickCommsPanel>
 	<FocusRadarPanel>
 		<Primary Device="Keyboard" Key="Key_3" />
-		<Secondary Device="03EB2054" DeviceIndex="1" Key="Joy_3" />
+		<Secondary Device="33448258" Key="Joy_3" />
 	</FocusRadarPanel>
 	<FocusRightPanel>
 		<Primary Device="Keyboard" Key="Key_4" />
-		<Secondary Device="03EB2054" DeviceIndex="1" Key="Joy_4" />
+		<Secondary Device="33448258" Key="Joy_4" />
 	</FocusRightPanel>
 	<LeftPanelFocusOptions Value="" />
 	<CommsPanelFocusOptions Value="" />
@@ -571,13 +571,13 @@
 		<Primary Device="Keyboard" Key="Key_M">
 			<Modifier Device="Keyboard" Key="Key_LeftAlt" />
 		</Primary>
-		<Secondary Device="03EB2054" DeviceIndex="1" Key="Joy_5" />
+		<Secondary Device="33448258" Key="Joy_5" />
 	</GalaxyMapOpen>
 	<SystemMapOpen>
 		<Primary Device="Keyboard" Key="Key_M">
 			<Modifier Device="Keyboard" Key="Key_LeftControl" />
 		</Primary>
-		<Secondary Device="03EB2054" DeviceIndex="1" Key="Joy_6" />
+		<Secondary Device="33448258" Key="Joy_6" />
 	</SystemMapOpen>
 	<ShowPGScoreSummaryInput>
 		<Primary Device="Keyboard" Key="Key_F1" />
@@ -603,11 +603,11 @@
 	</OpenCodexGoToDiscovery>
 	<PlayerHUDModeToggle>
 		<Primary Device="Keyboard" Key="Key_M" />
-		<Secondary Device="03EB2054" DeviceIndex="1" Key="Joy_8" />
+		<Secondary Device="33448258" Key="Joy_9" />
 	</PlayerHUDModeToggle>
 	<ExplorationFSSEnter>
 		<Primary Device="Keyboard" Key="Key_Colon" />
-		<Secondary Device="03EB2054" DeviceIndex="1" Key="Joy_7" />
+		<Secondary Device="33448258" Key="Joy_12" />
 	</ExplorationFSSEnter>
 	<UI_Up>
 		<Primary Device="Keyboard" Key="Key_W" />
