@@ -294,7 +294,7 @@
 	</BackwardThrustButton_Landing>
 	<ToggleFlightAssist>
 		<Primary Device="Keyboard" Key="Key_Z" />
-		<Secondary Device="03EB2054" DeviceIndex="1" Key="Joy_10" />
+		<Secondary Device="03EB2054" DeviceIndex="0" Key="Joy_9" />
 		<ToggleOn Value="0" />
 	</ToggleFlightAssist>
 	<UseBoostJuice>
@@ -310,11 +310,11 @@
 			<Modifier Device="Keyboard" Key="Key_LeftControl" />
 			<Modifier Device="Keyboard" Key="Key_LeftAlt" />
 		</Primary>
-		<Secondary Device="03EB2054" DeviceIndex="0" Key="Joy_7" />
+		<Secondary Device="03EB2054" DeviceIndex="0" Key="Joy_1" />
 	</Supercruise>
 	<Hyperspace>
 		<Primary Device="{NoDevice}" Key="" />
-		<Secondary Device="03EB2054" DeviceIndex="0" Key="Joy_8" />
+		<Secondary Device="03EB2054" DeviceIndex="0" Key="Joy_2" />
 	</Hyperspace>
 	<DisableRotationCorrectToggle>
 		<Primary Device="Keyboard" Key="Key_Z">
@@ -408,7 +408,7 @@
 	</SecondaryFire>
 	<CycleFireGroupNext>
 		<Primary Device="Keyboard" Key="Key_N" />
-		<Secondary Device="334440C8" Key="Joy_6" />
+		<Secondary Device="334440C8" Key="Joy_30" />
 	</CycleFireGroupNext>
 	<CycleFireGroupPrevious>
 		<Primary Device="Keyboard" Key="Key_N">
@@ -418,7 +418,7 @@
 	</CycleFireGroupPrevious>
 	<DeployHardpointToggle>
 		<Primary Device="Keyboard" Key="Key_U" />
-		<Secondary Device="334440C8" Key="Joy_30" />
+		<Secondary Device="334440C8" Key="Joy_6" />
 	</DeployHardpointToggle>
 	<DeployHardpointsOnFire Value="0" />
 	<ToggleButtonUpInput>
@@ -543,11 +543,11 @@
 	<UIFocusMode Value="Bindings_FocusModeHold" />
 	<FocusLeftPanel>
 		<Primary Device="Keyboard" Key="Key_1" />
-		<Secondary Device="33448258" Key="Joy_1" />
+		<Secondary Device="334440C8" Key="Joy_29" />
 	</FocusLeftPanel>
 	<FocusCommsPanel>
 		<Primary Device="Keyboard" Key="Key_2" />
-		<Secondary Device="33448258" Key="Joy_2" />
+		<Secondary Device="334440C8" Key="Joy_26" />
 	</FocusCommsPanel>
 	<FocusOnTextEntryField Value="0" />
 	<QuickCommsPanel>
@@ -556,11 +556,11 @@
 	</QuickCommsPanel>
 	<FocusRadarPanel>
 		<Primary Device="Keyboard" Key="Key_3" />
-		<Secondary Device="33448258" Key="Joy_3" />
+		<Secondary Device="334440C8" Key="Joy_28" />
 	</FocusRadarPanel>
 	<FocusRightPanel>
 		<Primary Device="Keyboard" Key="Key_4" />
-		<Secondary Device="33448258" Key="Joy_4" />
+		<Secondary Device="334440C8" Key="Joy_27" />
 	</FocusRightPanel>
 	<LeftPanelFocusOptions Value="" />
 	<CommsPanelFocusOptions Value="" />
