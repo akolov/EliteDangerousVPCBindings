@@ -1449,7 +1449,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</GalnetAudio_ClearQueue>
 	<ExplorationFSSCameraPitch>
-		<Binding Device="33448190" Key="Joy_UAxis" />
+		<Binding Device="33448190" Key="Joy_YAxis" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</ExplorationFSSCameraPitch>
@@ -1462,7 +1462,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</ExplorationFSSCameraPitchDecreaseButton>
 	<ExplorationFSSCameraYaw>
-		<Binding Device="33448190" Key="Joy_VAxis" />
+		<Binding Device="33448190" Key="Joy_XAxis" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</ExplorationFSSCameraYaw>
@@ -1475,23 +1475,23 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</ExplorationFSSCameraYawDecreaseButton>
 	<ExplorationFSSZoomIn>
-		<Primary Device="33448190" Key="Joy_22" />
+		<Primary Device="vJoy" DeviceIndex="1" Key="Joy_23" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</ExplorationFSSZoomIn>
 	<ExplorationFSSZoomOut>
-		<Primary Device="33448190" Key="Joy_21" />
+		<Primary Device="vJoy" DeviceIndex="1" Key="Joy_22" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</ExplorationFSSZoomOut>
 	<ExplorationFSSMiniZoomIn>
-		<Primary Device="33448190" Key="Joy_25" />
+		<Primary Device="vJoy" DeviceIndex="1" Key="Joy_26" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</ExplorationFSSMiniZoomIn>
 	<ExplorationFSSMiniZoomOut>
-		<Primary Device="33448190" Key="Joy_24" />
+		<Primary Device="vJoy" DeviceIndex="1" Key="Joy_25" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</ExplorationFSSMiniZoomOut>
 	<ExplorationFSSRadioTuningX_Raw>
-		<Binding Device="{NoDevice}" Key="" />
+		<Binding Device="33448190" Key="Joy_UAxis" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</ExplorationFSSRadioTuningX_Raw>
@@ -1504,18 +1504,18 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</ExplorationFSSRadioTuningX_Decrease>
 	<ExplorationFSSRadioTuningAbsoluteX>
-		<Binding Device="33448190" Key="Joy_RZAxis" />
+		<Binding Device="33448190" Key="Joy_VAxis" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</ExplorationFSSRadioTuningAbsoluteX>
-	<FSSTuningSensitivity Value="5.59474707" />
+	<FSSTuningSensitivity Value="2.65231895" />
 	<ExplorationFSSDiscoveryScan>
-		<Primary Device="33448190" Key="Joy_19" />
+		<Primary Device="vJoy" DeviceIndex="1" Key="Joy_21" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</ExplorationFSSDiscoveryScan>
 	<ExplorationFSSQuit>
-		<Primary Device="33448190" Key="Joy_7" />
-		<Secondary Device="Keyboard" Key="Key_Apostrophe" />
+		<Primary Device="33448258" Key="Joy_12" />
+		<Secondary Device="Keyboard" Key="Key_Colon" />
 	</ExplorationFSSQuit>
 	<FSSMouseXMode Value="" />
 	<FSSMouseXDecay Value="1" />
