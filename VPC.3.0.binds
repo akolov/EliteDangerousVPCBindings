@@ -469,7 +469,7 @@
 	</HMDReset>
 	<ToggleCargoScoop>
 		<Primary Device="Keyboard" Key="Key_Home" />
-		<Secondary Device="33448190" Key="Joy_12" />
+		<Secondary Device="vJoy" DeviceIndex="1" Key="Joy_12" />
 		<ToggleOn Value="1" />
 	</ToggleCargoScoop>
 	<EjectAllCargo>
@@ -478,7 +478,7 @@
 	</EjectAllCargo>
 	<LandingGearToggle>
 		<Primary Device="Keyboard" Key="Key_Insert" />
-		<Secondary Device="33448190" Key="Joy_11" />
+		<Secondary Device="vJoy" DeviceIndex="1" Key="Joy_11" />
 	</LandingGearToggle>
 	<MicrophoneMute>
 		<Primary Device="Keyboard" Key="Key_BackSlash" />
@@ -1515,7 +1515,7 @@
 	</ExplorationFSSDiscoveryScan>
 	<ExplorationFSSQuit>
 		<Primary Device="33448258" Key="Joy_12" />
-		<Secondary Device="Keyboard" Key="Key_Colon" />
+		<Secondary Device="{NoDevice}" Key="" />
 	</ExplorationFSSQuit>
 	<FSSMouseXMode Value="" />
 	<FSSMouseXDecay Value="1" />
