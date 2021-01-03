@@ -294,7 +294,10 @@
 	</BackwardThrustButton_Landing>
 	<ToggleFlightAssist>
 		<Primary Device="Keyboard" Key="Key_Z" />
-		<Secondary Device="vJoy" DeviceIndex="1" Key="Joy_2" />
+		<Secondary Device="Keyboard" Key="Key_LeftAlt">
+			<Modifier Device="Keyboard" Key="Key_LeftShift" />
+			<Modifier Device="Keyboard" Key="Key_B" />
+		</Secondary>
 		<ToggleOn Value="0" />
 	</ToggleFlightAssist>
 	<UseBoostJuice>
@@ -303,18 +306,24 @@
 	</UseBoostJuice>
 	<HyperSuperCombination>
 		<Primary Device="Keyboard" Key="Key_J" />
-		<Secondary Device="vJoy" DeviceIndex="1" Key="Joy_6" />
+		<Secondary Device="Keyboard" Key="Key_LeftAlt">
+			<Modifier Device="Keyboard" Key="Key_F" />
+			<Modifier Device="Keyboard" Key="Key_LeftShift" />
+		</Secondary>
 	</HyperSuperCombination>
 	<Supercruise>
-		<Primary Device="Keyboard" Key="Key_S">
-			<Modifier Device="Keyboard" Key="Key_LeftControl" />
-			<Modifier Device="Keyboard" Key="Key_LeftAlt" />
-		</Primary>
-		<Secondary Device="vJoy" DeviceIndex="1" Key="Joy_7" />
+		<Primary Device="{NoDevice}" Key="" />
+		<Secondary Device="Keyboard" Key="Key_LeftAlt">
+			<Modifier Device="Keyboard" Key="Key_G" />
+			<Modifier Device="Keyboard" Key="Key_LeftShift" />
+		</Secondary>
 	</Supercruise>
 	<Hyperspace>
 		<Primary Device="{NoDevice}" Key="" />
-		<Secondary Device="vJoy" DeviceIndex="1" Key="Joy_8" />
+		<Secondary Device="Keyboard" Key="Key_LeftAlt">
+			<Modifier Device="Keyboard" Key="Key_H" />
+			<Modifier Device="Keyboard" Key="Key_LeftShift" />
+		</Secondary>
 	</Hyperspace>
 	<DisableRotationCorrectToggle>
 		<Primary Device="Keyboard" Key="Key_Z">
@@ -324,8 +333,8 @@
 		<ToggleOn Value="1" />
 	</DisableRotationCorrectToggle>
 	<OrbitLinesToggle>
-		<Primary Device="Keyboard" Key="Key_Equals" />
-		<Secondary Device="33448259" Key="Joy_30" />
+		<Primary Device="{NoDevice}" Key="" />
+		<Secondary Device="33448259" Key="Joy_25" />
 	</OrbitLinesToggle>
 	<SelectTarget>
 		<Primary Device="Keyboard" Key="Key_T" />
@@ -352,9 +361,8 @@
 		<Secondary Device="334440CC" Key="Joy_9" />
 	</CycleNextHostileTarget>
 	<CyclePreviousHostileTarget>
-		<Primary Device="Keyboard" Key="Key_G">
+		<Primary Device="Keyboard" Key="Key_Insert">
 			<Modifier Device="Keyboard" Key="Key_LeftAlt" />
-			<Modifier Device="Keyboard" Key="Key_LeftShift" />
 		</Primary>
 		<Secondary Device="334440CC" Key="Joy_11" />
 	</CyclePreviousHostileTarget>
@@ -423,16 +431,28 @@
 	<DeployHardpointsOnFire Value="0" />
 	<ToggleButtonUpInput>
 		<Primary Device="Keyboard" Key="Key_Delete" />
-		<Secondary Device="vJoy" DeviceIndex="1" Key="Joy_4" />
+		<Secondary Device="Keyboard" Key="Key_LeftAlt">
+			<Modifier Device="Keyboard" Key="Key_D" />
+			<Modifier Device="Keyboard" Key="Key_LeftShift" />
+		</Secondary>
 		<ToggleOn Value="0" />
 	</ToggleButtonUpInput>
 	<DeployHeatSink>
-		<Primary Device="Keyboard" Key="Key_V" />
-		<Secondary Device="vJoy" DeviceIndex="1" Key="Joy_13" />
+		<Primary Device="Keyboard" Key="Key_LeftAlt">
+			<Modifier Device="Keyboard" Key="Key_L" />
+			<Modifier Device="Keyboard" Key="Key_LeftShift" />
+		</Primary>
+		<Secondary Device="Keyboard" Key="Key_LeftAlt">
+			<Modifier Device="Keyboard" Key="Key_LeftShift" />
+			<Modifier Device="Keyboard" Key="Key_M" />
+		</Secondary>
 	</DeployHeatSink>
 	<ShipSpotLightToggle>
-		<Primary Device="Keyboard" Key="Key_L" />
-		<Secondary Device="33448259" Key="Joy_19" />
+		<Primary Device="Keyboard" Key="Key_F11">
+			<Modifier Device="Keyboard" Key="Key_LeftControl" />
+			<Modifier Device="Keyboard" Key="Key_LeftShift" />
+		</Primary>
+		<Secondary Device="33448259" Key="Joy_23" />
 	</ShipSpotLightToggle>
 	<RadarRangeAxis>
 		<Binding Device="33448259" Key="Joy_VAxis" />
@@ -469,16 +489,25 @@
 	</HMDReset>
 	<ToggleCargoScoop>
 		<Primary Device="Keyboard" Key="Key_Home" />
-		<Secondary Device="vJoy" DeviceIndex="1" Key="Joy_5" />
+		<Secondary Device="Keyboard" Key="Key_LeftAlt">
+			<Modifier Device="Keyboard" Key="Key_E" />
+			<Modifier Device="Keyboard" Key="Key_LeftShift" />
+		</Secondary>
 		<ToggleOn Value="0" />
 	</ToggleCargoScoop>
 	<EjectAllCargo>
 		<Primary Device="{NoDevice}" Key="" />
-		<Secondary Device="33448259" Key="Joy_14" />
+		<Secondary Device="33448259" Key="Joy_16" />
 	</EjectAllCargo>
 	<LandingGearToggle>
-		<Primary Device="Keyboard" Key="Key_Insert" />
-		<Secondary Device="vJoy" DeviceIndex="1" Key="Joy_17" />
+		<Primary Device="Keyboard" Key="Key_LeftAlt">
+			<Modifier Device="Keyboard" Key="Key_P" />
+			<Modifier Device="Keyboard" Key="Key_LeftShift" />
+		</Primary>
+		<Secondary Device="Keyboard" Key="Key_LeftAlt">
+			<Modifier Device="Keyboard" Key="Key_Q" />
+			<Modifier Device="Keyboard" Key="Key_LeftShift" />
+		</Secondary>
 	</LandingGearToggle>
 	<MicrophoneMute>
 		<Primary Device="Keyboard" Key="Key_BackSlash" />
@@ -493,7 +522,7 @@
 			<Modifier Device="Keyboard" Key="Key_LeftAlt" />
 			<Modifier Device="Keyboard" Key="Key_LeftShift" />
 		</Primary>
-		<Secondary Device="33448259" Key="Joy_25" />
+		<Secondary Device="33448259" Key="Joy_27" />
 	</UseShieldCell>
 	<FireChaffLauncher>
 		<Primary Device="Keyboard" Key="Key_C">
@@ -501,7 +530,7 @@
 			<Modifier Device="Keyboard" Key="Key_LeftAlt" />
 			<Modifier Device="Keyboard" Key="Key_LeftShift" />
 		</Primary>
-		<Secondary Device="33448259" Key="Joy_27" />
+		<Secondary Device="33448259" Key="Joy_29" />
 	</FireChaffLauncher>
 	<ChargeECM>
 		<Primary Device="Keyboard" Key="Key_E">
@@ -509,7 +538,7 @@
 			<Modifier Device="Keyboard" Key="Key_LeftAlt" />
 			<Modifier Device="Keyboard" Key="Key_LeftShift" />
 		</Primary>
-		<Secondary Device="33448259" Key="Joy_28" />
+		<Secondary Device="33448259" Key="Joy_31" />
 	</ChargeECM>
 	<EnableRumbleTrigger Value="1" />
 	<EnableMenuGroups Value="0" />
@@ -534,7 +563,7 @@
 			<Modifier Device="Keyboard" Key="Key_LeftAlt" />
 			<Modifier Device="Keyboard" Key="Key_LeftShift" />
 		</Primary>
-		<Secondary Device="33448259" Key="Joy_20" />
+		<Secondary Device="33448259" Key="Joy_21" />
 	</NightVisionToggle>
 	<UIFocus>
 		<Primary Device="Keyboard" Key="Key_LeftShift" />
@@ -1105,16 +1134,15 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</MultiCrewCockpitUICycleBackward>
 	<OrderRequestDock>
-		<Primary Device="Keyboard" Key="Key_F">
-			<Modifier Device="Keyboard" Key="Key_LeftAlt" />
+		<Primary Device="Keyboard" Key="Key_PageUp">
+			<Modifier Device="Keyboard" Key="Key_LeftControl" />
 			<Modifier Device="Keyboard" Key="Key_LeftShift" />
 		</Primary>
 		<Secondary Device="{NoDevice}" Key="" />
 	</OrderRequestDock>
 	<OrderDefensiveBehaviour>
-		<Primary Device="Keyboard" Key="Key_D">
+		<Primary Device="Keyboard" Key="Key_PageDown">
 			<Modifier Device="Keyboard" Key="Key_LeftShift" />
-			<Modifier Device="Keyboard" Key="Key_LeftAlt" />
 		</Primary>
 		<Secondary Device="{NoDevice}" Key="" />
 	</OrderDefensiveBehaviour>
@@ -1133,21 +1161,23 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</OrderFocusTarget>
 	<OrderHoldFire>
-		<Primary Device="Keyboard" Key="Key_M">
+		<Primary Device="Keyboard" Key="Key_End">
+			<Modifier Device="Keyboard" Key="Key_LeftControl" />
 			<Modifier Device="Keyboard" Key="Key_LeftShift" />
-			<Modifier Device="Keyboard" Key="Key_LeftAlt" />
 		</Primary>
 		<Secondary Device="{NoDevice}" Key="" />
 	</OrderHoldFire>
 	<OrderHoldPosition>
-		<Primary Device="Keyboard" Key="Key_H">
-			<Modifier Device="Keyboard" Key="Key_LeftShift" />
+		<Primary Device="Keyboard" Key="Key_Home">
+			<Modifier Device="Keyboard" Key="Key_LeftControl" />
 			<Modifier Device="Keyboard" Key="Key_LeftAlt" />
+			<Modifier Device="Keyboard" Key="Key_LeftShift" />
 		</Primary>
 		<Secondary Device="{NoDevice}" Key="" />
 	</OrderHoldPosition>
 	<OrderFollow>
-		<Primary Device="Keyboard" Key="Key_L">
+		<Primary Device="Keyboard" Key="Key_F12">
+			<Modifier Device="Keyboard" Key="Key_LeftControl" />
 			<Modifier Device="Keyboard" Key="Key_LeftShift" />
 			<Modifier Device="Keyboard" Key="Key_LeftAlt" />
 		</Primary>
@@ -1510,7 +1540,7 @@
 	</ExplorationFSSRadioTuningAbsoluteX>
 	<FSSTuningSensitivity Value="2.65231895" />
 	<ExplorationFSSDiscoveryScan>
-		<Primary Device="33448193" Key="Joy_21" />
+		<Primary Device="33448193" Key="Joy_1" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</ExplorationFSSDiscoveryScan>
 	<ExplorationFSSQuit>
