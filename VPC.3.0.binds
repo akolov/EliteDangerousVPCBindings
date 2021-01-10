@@ -685,7 +685,7 @@
 		<Primary Device="Keyboard" Key="Key_Z" />
 		<Secondary Device="334440CC" Key="Joy_24" />
 	</CyclePreviousPage>
-	<MouseHeadlook Value="1" />
+	<MouseHeadlook Value="0" />
 	<MouseHeadlookInvert Value="0" />
 	<MouseHeadlookSensitivity Value="1.86303139" />
 	<HeadlookDefault Value="0" />
@@ -1198,26 +1198,32 @@
 			<Modifier Device="Keyboard" Key="Key_LeftControl" />
 			<Modifier Device="Keyboard" Key="Key_LeftAlt" />
 		</Primary>
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="33448259" Key="Joy_7" />
 	</PhotoCameraToggle>
 	<PhotoCameraToggle_Buggy>
 		<Primary Device="Keyboard" Key="Key_Space">
 			<Modifier Device="Keyboard" Key="Key_LeftControl" />
 			<Modifier Device="Keyboard" Key="Key_LeftAlt" />
 		</Primary>
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="33448259" Key="Joy_7" />
 	</PhotoCameraToggle_Buggy>
 	<VanityCameraScrollLeft>
 		<Primary Device="Keyboard" Key="Key_LeftArrow" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="Keyboard" Key="Key_C">
+			<Modifier Device="Keyboard" Key="Key_LeftControl" />
+			<Modifier Device="Keyboard" Key="Key_LeftShift" />
+		</Secondary>
 	</VanityCameraScrollLeft>
 	<VanityCameraScrollRight>
 		<Primary Device="Keyboard" Key="Key_RightArrow" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="Keyboard" Key="Key_B">
+			<Modifier Device="Keyboard" Key="Key_LeftControl" />
+			<Modifier Device="Keyboard" Key="Key_LeftShift" />
+		</Secondary>
 	</VanityCameraScrollRight>
 	<ToggleFreeCam>
 		<Primary Device="Keyboard" Key="Key_UpArrow" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="33448259" Key="Joy_10" />
 	</ToggleFreeCam>
 	<VanityCameraOne>
 		<Primary Device="Keyboard" Key="Key_Numpad_1" />
@@ -1271,15 +1277,15 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</FreeCamSpeedDec>
 	<MoveFreeCamY>
-		<Binding Device="334440CC" Key="Joy_YAxis" />
+		<Binding Device="33448194" Key="Joy_RXAxis" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</MoveFreeCamY>
 	<ThrottleRangeFreeCam Value="" />
 	<ToggleReverseThrottleInputFreeCam>
-		<Primary Device="33448194" Key="Joy_3" />
+		<Primary Device="{NoDevice}" Key="" />
 		<Secondary Device="{NoDevice}" Key="" />
-		<ToggleOn Value="0" />
+		<ToggleOn Value="1" />
 	</ToggleReverseThrottleInputFreeCam>
 	<MoveFreeCamForward>
 		<Primary Device="{NoDevice}" Key="" />
@@ -1290,7 +1296,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</MoveFreeCamBackwards>
 	<MoveFreeCamX>
-		<Binding Device="334440CC" Key="Joy_XAxis" />
+		<Binding Device="334440CC" Key="Joy_RXAxis" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</MoveFreeCamX>
@@ -1304,7 +1310,7 @@
 	</MoveFreeCamLeft>
 	<MoveFreeCamZ>
 		<Binding Device="334440CC" Key="Joy_RYAxis" />
-		<Inverted Value="0" />
+		<Inverted Value="1" />
 		<Deadzone Value="0.00000000" />
 	</MoveFreeCamZ>
 	<MoveFreeCamUpAxis>
@@ -1328,8 +1334,8 @@
 	<PitchCameraMouse Value="Bindings_MousePitch" />
 	<YawCameraMouse Value="Bindings_MouseYaw" />
 	<PitchCamera>
-		<Binding Device="334440CC" Key="Joy_RXAxis" />
-		<Inverted Value="0" />
+		<Binding Device="334440CC" Key="Joy_YAxis" />
+		<Inverted Value="1" />
 		<Deadzone Value="0.00000000" />
 	</PitchCamera>
 	<FreeCamMouseSensitivity Value="5.00000000" />
@@ -1343,7 +1349,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</PitchCameraDown>
 	<YawCamera>
-		<Binding Device="{NoDevice}" Key="" />
+		<Binding Device="334440CC" Key="Joy_ZAxis" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</YawCamera>
@@ -1357,7 +1363,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</YawCameraRight>
 	<RollCamera>
-		<Binding Device="{NoDevice}" Key="" />
+		<Binding Device="334440CC" Key="Joy_XAxis" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</RollCamera>
@@ -1371,7 +1377,7 @@
 	</RollCameraRight>
 	<ToggleRotationLock>
 		<Primary Device="{NoDevice}" Key="" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="33448259" Key="Joy_27" />
 	</ToggleRotationLock>
 	<FixCameraRelativeToggle>
 		<Primary Device="Keyboard" Key="Key_C">
@@ -1389,27 +1395,33 @@
 	</FixCameraWorldToggle>
 	<QuitCamera>
 		<Primary Device="{NoDevice}" Key="" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="33448259" Key="Joy_10" />
 	</QuitCamera>
 	<ToggleAdvanceMode>
 		<Primary Device="{NoDevice}" Key="" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="33448259" Key="Joy_21" />
 	</ToggleAdvanceMode>
 	<FreeCamZoomIn>
 		<Primary Device="{NoDevice}" Key="" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="33448194" Key="Joy_3" />
 	</FreeCamZoomIn>
 	<FreeCamZoomOut>
 		<Primary Device="{NoDevice}" Key="" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="33448194" Key="Joy_2" />
 	</FreeCamZoomOut>
 	<FStopDec>
 		<Primary Device="{NoDevice}" Key="" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="Keyboard" Key="Key_LeftShift">
+			<Modifier Device="Keyboard" Key="Key_I" />
+			<Modifier Device="Keyboard" Key="Key_LeftControl" />
+		</Secondary>
 	</FStopDec>
 	<FStopInc>
 		<Primary Device="{NoDevice}" Key="" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="Keyboard" Key="Key_LeftShift">
+			<Modifier Device="Keyboard" Key="Key_LeftControl" />
+			<Modifier Device="Keyboard" Key="Key_H" />
+		</Secondary>
 	</FStopInc>
 	<StoreEnableRotation>
 		<Primary Device="{NoDevice}" Key="" />
